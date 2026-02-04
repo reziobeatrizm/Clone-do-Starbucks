@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    height: 100vh;
+    background-color: #f4e8dc;
+}
+
+.nav {
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav .logo {
+    border-radius: 40px;
+    margin-right: 200px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    transition: 0.5;
+}
+
+.nav a:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.nav .sign-in {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.nav .sign-in:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.nav .join-now {
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.nav .join-now:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.text {
+height: 400px;
+margin-top: 150px;
+margin-left: 80px;
+}
+
+.text p {
+    margin-top: 10px;
+    width: 550px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.text .order-now {
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.text .order-now:hover {
+    transform: scale(1.1);
+     background-color: transparent;
+    color: green;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px black;
+}
+.icons .instagram {
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.main {
+    display: flex;
+}
+
+.drinks {
+    height: 450px;
+    margin-left: 300px;
+    margin-top: 60px;
+    transform: 0.5s;
+}
+
+.drinks:hover {
+    transform: scale(1.1);
+}
+
